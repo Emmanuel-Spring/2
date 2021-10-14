@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/S28-ProgramacionFuncional_Optional/S28-ProgramacionFuncional_Optional.iml" filepath="$PROJECT_DIR$/S28-ProgramacionFuncional_Optional/S28-ProgramacionFuncional_Optional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S01-Introduccion/S01-Introduccion.iml" filepath="$PROJECT_DIR$/S01-Introduccion/S01-Introduccion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S02-Variables/S02-Variables.iml" filepath="$PROJECT_DIR$/S02-Variables/S02-Variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S03-TipoStringCadenas/S03-TipoStringCadenas.iml" filepath="$PROJECT_DIR$/S03-TipoStringCadenas/S03-TipoStringCadenas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S04-Operadores/S04-Operadores.iml" filepath="$PROJECT_DIR$/S04-Operadores/S04-Operadores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S05-FlujosDeControl/S05-FlujosDeControl.iml" filepath="$PROJECT_DIR$/S05-FlujosDeControl/S05-FlujosDeControl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S06-ClasesWrapper/S06-ClasesWrapper.iml" filepath="$PROJECT_DIR$/S06-ClasesWrapper/S06-ClasesWrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S07-ValorVSReferencia/S07-ValorVSReferencia.iml" filepath="$PROJECT_DIR$/S07-ValorVSReferencia/S07-ValorVSReferencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S12-Arreglos/S12-Arreglos.iml" filepath="$PROJECT_DIR$/S12-Arreglos/S12-Arreglos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S28-ProgramacionFuncionalOptional/S28-ProgramacionFuncionalOptional.iml" filepath="$PROJECT_DIR$/S28-ProgramacionFuncionalOptional/S28-ProgramacionFuncionalOptional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S59-JakartaEE9JPAEHibernateAsociaciones/S59-JakartaEE9JPAEHibernateAsociaciones.iml" filepath="$PROJECT_DIR$/S59-JakartaEE9JPAEHibernateAsociaciones/S59-JakartaEE9JPAEHibernateAsociaciones.iml" />
     </modules>
   </component>
 </project>

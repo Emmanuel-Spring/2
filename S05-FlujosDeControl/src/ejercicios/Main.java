@@ -1,4 +1,4 @@
-package talentyco.ejercicios;
+package ejercicios;
 
 /**
  * Java Title

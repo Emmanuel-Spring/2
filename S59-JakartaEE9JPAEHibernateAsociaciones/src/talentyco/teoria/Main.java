@@ -1,4 +1,4 @@
-package com.talentyco.teoria;
+package talentyco.teoria;
 
 /**
  * Java Title

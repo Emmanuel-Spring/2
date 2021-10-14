@@ -1,4 +1,4 @@
-package com.talentyco.practica;
+package talentyco.practica;
 
 /**
  * Java Title

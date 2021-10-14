@@ -1,4 +1,4 @@
-package com.talentyco.proyectos;
+package talentyco.proyectos;
 
 /**
  * Java Title
