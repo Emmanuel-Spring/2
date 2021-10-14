@@ -9,10 +9,8 @@ import java.util.Arrays;
  * @see <a href = "" />  </a>
  */
 
-public class Video98_EjemploArreglosForInverso {
+public class Video99_EjemploArreglosForInversoMutable {
     public static void main(String[] args) {
-
-        // String [] productos = new String[8];
 
         String [] productos = {"Lenovo kKJGH68574", "Phillips HD 58``", "LG Alta HD for Revolution",
                 "ASUS Notebook", "LG pantalla curva 574445", "IPhone 13",
@@ -21,14 +19,6 @@ public class Video98_EjemploArreglosForInverso {
         int total = productos.length;
 
         System.out.println("\n");
-        productos [0] = "Lenovo kKJGH68574";
-        productos [1] = "Phillips HD 58``";
-        productos [2] = "LG Alta HD for Revolution";
-        productos [3] = "ASUS Notebook";
-        productos [4] = "LG pantalla curva 574445";
-        productos [5] = "IPhone 13";
-        productos [6] = "Samsuing S12";
-        productos [7] = "Huawei GP12 7,8º";
 
         Arrays.sort(productos);  // Ayuda a ordenar alfabeticamente los datos
 
@@ -39,20 +29,22 @@ public class Video98_EjemploArreglosForInverso {
         }
 
 
+
+
         System.out.println("\n\n\n");   // Triple salto de línea
-        System.out.println(" *************   Usando FOR Inverso  *************");
         for (int i = 0; i < total; i++) {
-            System.out.println("Para i =  " + (total - 1 - i) + " valor:   " + productos[total - 1 - i]);
+            String actual = productos[i];
+            String inverso = productos[total - 1 - i];
+            productos[i] = inverso;
+            productos[total - 1 - i] = actual;
         }
 
 
         System.out.println("\n\n\n");   // Triple salto de línea
-        System.out.println(" *************   Usando FOR Inverso 2.0 *************");
-        for (int i = total - 1; i >= 0; i--) {
+        System.out.println(" *************   Usando FOR*************");
+        for (int i = total - 1; i < total; i++) {
             System.out.println("Para i =  " + i + " valor:   " + productos[i]);
         }
-
-
 
     }
 }
